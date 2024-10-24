@@ -1,23 +1,24 @@
-import logo from './logo.svg';
+import Testimonio from './componentes/Testimonio.js'
+import testimonios from './datos/testimonios.js';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className='contenedor-principal'>
+        <h1>Esto es lo que dicen los programadores</h1>
+        {testimonios.map((testimonio, index) => (
+          <Testimonio
+            key={index}
+            nombre={testimonio.nombre}
+            pais={testimonio.pais}
+            imagen={testimonio.imagen}
+            cargo={testimonio.cargo}
+            empresa={testimonio.empresa}
+            testimonio={testimonio.testimonio}
+          />
+        ))}
+      </div>
     </div>
   );
 }
