@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/PrimeraAppReact/static/css/main.4a62caa4.css",
+    "main.js": "/PrimeraAppReact/static/js/main.e3a303c7.js",
+    "static/media/testimonio-ivan.jpg": "/PrimeraAppReact/static/media/testimonio-ivan.5086c7109889ffea5b2f.jpg",
+    "static/media/testimonio-angel.jpg": "/PrimeraAppReact/static/media/testimonio-angel.6f387706bb505b9d9048.jpg",
+    "static/media/testimonio-efren.jpg": "/PrimeraAppReact/static/media/testimonio-efren.d599f36709336c82ed19.jpg",
+    "index.html": "/PrimeraAppReact/index.html",
+    "main.4a62caa4.css.map": "/PrimeraAppReact/static/css/main.4a62caa4.css.map",
+    "main.e3a303c7.js.map": "/PrimeraAppReact/static/js/main.e3a303c7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4a62caa4.css",
+    "static/js/main.e3a303c7.js"
+  ]
+}
